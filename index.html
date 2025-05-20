@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="wrapper"> 
+        <div class="container">
+                <div>
+                    <h1 class="center">Create Your Account</h1>
+                </div>
+                <div>
+                    <input type="text" class="inputStyle" id="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <input type="text" class="inputStyle" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="password" class="inputStyle" id="password" placeholder="Password" required>
+                </div>
+                <div>
+                    <input type="password" class="inputStyle" id="passwordConfirmation" placeholder="Confirm Password" required>
+                </div>
+                <div>
+                    <button onclick="signUp()">Sign In</button>
+                </div>
+                <div>
+                    <p id="signUpDisplay" class="center">
+                        
+                    </p>
+                </div>
+                <div>
+                    <p class="center">
+                        Already have an account? <a href="signin.html"><strong>Sign In</strong></a>
+                    </p>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

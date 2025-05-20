@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="wrapper"> 
+        <div class="container">
+                <div>
+                    <h1 class="center">Sign In</h1>
+                </div>
+                <div>
+                    <input type="text" class="inputStyle"  id="email" placeholder="Email">
+                </div>
+                <div>
+                    <input type="password" class="inputStyle" id="password" placeholder="Password">
+                </div>
+                <div id="gap">
+                    <label>
+                        <input type="checkbox">
+                        Remember Me
+                    </label>
+                    <a href="pswrd.html"><strong>Forgot Password</strong></a>
+                </div>
+                <div>
+                    <button onclick="signIn()">Sign In</button>
+                </div>
+                <div>
+                    <p class="center" id="signInDisplay">
+
+                    </p>
+                </div>
+                <div>
+                    <p class="center">
+                        Don't have an account? <a href="index.html"><strong>Sign Up</strong></a>
+                    </p>
+                </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
